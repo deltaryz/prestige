@@ -1,16 +1,12 @@
-# Fabric Example Mod - Kotlin
-![Gradle build](https://github.com/natanfudge/fabric-example-mod-kotlin/workflows/Gradle%20build/badge.svg)
-## Setup
+# Prestige
 
-0. Create a new mod repository by pressing the "Use this template" button and clone the created repository.
+![Gradle build](https://github.com/deltaryz/prestige/workflows/Gradle%20build/badge.svg)
 
-1. Import build.gradle file with IntelliJ IDEA
+Prestige is a Minecraft Fabric mod that aims to implement Call of Duty-inspired prestige mechanics into survival
+Minecraft. It depends on [Fabric Language Kotlin](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin).
 
-2. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-3. Run!
+All commits are compiled in
+the [Actions tab](https://github.com/deltaryz/prestige/actions?query=workflow%3A%22Gradle+build%22), you may find a
+pre-built jar in the "Artifacts" section of any successful job.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Alternatively, you may compile with `./gradlew build` in the project directory. Output will be located in `build/libs/`.
